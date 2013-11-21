@@ -1,0 +1,354 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+/*p, ul{
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;
+}*/
+
+img{
+	border: 0;
+}
+#intro h1 {
+	margin:0 auto;
+	margin-left: 90px;
+}
+.float-left{
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.float-right{
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+	top:40px;
+	z-index:999;
+}
+
+#nav li{
+	margin: 0 0 15px 0;	
+}
+
+#header, #intro, #second{
+	width: 100%;
+}
+
+#intro{
+	background:url(images/firstBG.png) 0 no-repeat fixed;
+	color: white;
+	height: 680px;
+	width:100%;
+	margin: 0 auto;
+	padding: 0;
+}
+#second .promo {
+  font-size: 70px;
+  overflow: hidden;
+  color: #4d4d4d;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+  font-family: helvetica;
+  float:left;
+  margin: 350px 125px 0 0;
+}
+#second .two {
+  font-size: 130px;
+  color: #aef567;
+}
+#second p {
+	font-size: 30px;
+	text-align: center;
+	font-family: helvetica;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+#second{
+	background: url(images/secondBG.png) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+#second .bg{
+	background: url(images/trainers.png) 50% 0 no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 200;
+}
+
+#third{
+	background: url(images/thirdBG.png) 50% 0 no-repeat fixed;
+	color: white;
+	height: 700px;
+	padding: 100px 0 0 0;	
+}
+
+#video {
+  background: #898989;
+  height: 300px;
+}
+.responsive-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fifth{
+	background: url(images/kids.jpg) 50% 0 no-repeat fixed;
+	height: 600px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+/*	width: 980px;*/
+}
+
+.story .float-left, .story .float-right{
+	padding: 50px 0 0 0;
+	position: relative;
+	/*width: 350px;	*/
+}
+
+/*Band Page --------------------------------------*/
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #aef567;
+}
+#space {
+  height: 600px;
+  background: #3cbdc8;
+  color: #393939;
+}
+#band {
+  background: url(../images/staticFreaks.jpg) no-repeat;
+  height: 250px;
+  width: 100%;
+}
+article#about {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+}
+article#about p {
+  margin: 25px;
+  line-height: 27px;
+  font-size: 23px;
+  color: #393939;
+}
+article#about h3 {
+  margin: 25px 0 0 25px;
+}
+aside#members {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+aside#members h3 {
+  margin: 25px 0;
+}
+aside#members img {
+  margin: 10px 10px 0 0;
+  float: left;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+aside#members p {
+  font-size: 23px;
+  padding: 50px 10px;
+  color: #393939;
+}
+/* Shows Page --------------------------------------*/
+#showdata {
+  height: 500px;
+  background: #666666;
+}
+#showdata h3 {
+  padding: 25px 0;
+  text-align: center;
+}
+#showdata p {
+  font-size: 22px;
+  color: #ffffff;
+}
+#showdata .date {
+  display: inline;
+  float: left;
+  width: 360px;
+  margin: 0 10px;
+  padding: 15px 0;
+}
+#showdata .date p {
+  text-align: center;
+}
+#showdata .place {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  padding: 15px 0;
+}
+#showdata .place p {
+  text-align: center;
+}
+#showdata .tickets {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  padding: 15px 0;
+}
+/*button ---------------*/
+.myButton {
+  -moz-box-shadow: inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #f5978e;
+  box-shadow: inset 0px 1px 0px 0px #f5978e;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+  background: -moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background: -webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background: -o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background: -ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f', GradientType=0);
+  background-color: #f24537;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+  float: right;
+}
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));
+  background: -moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background: -webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background: -o-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background: -ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537', GradientType=0);
+  background-color: #c62d1f;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/*FOOTER ----------------------------------------------*/
+footer {
+  height: 200px;
+  background: #aef567;
+  position: relative;
+}
+/*social sprites*/
+
+ul.social {
+  padding: 0;
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+}
+ul.social li {
+  display: inline;
+}
+ul.social li a {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+  margin-top: 50px;
+  text-indent: -9999px;
+}
+ul.social li a.facebook {
+  background: url(images/socialSprite.png) 0 -100px no-repeat;
+}
+ul.social li a.facebook:hover {
+  background: url(images/socialSprite.png) 0 0 no-repeat;
+}
+ul.social li a.twitter {
+  background: url(images/socialSprite.png) -100px -100px no-repeat;
+}
+ul.social li a.twitter:hover {
+  background: url(images/socialSprite.png) -100px 0 no-repeat;
+}
+ul.social li a.instagram {
+  background: url(images/socialSprite.png) -200px -100px no-repeat;
+}
+ul.social li a.instagram:hover {
+  background: url(images/socialSprite.png) -200px 0 no-repeat;
+}
+ul.social li a.googleplus {
+  background: url(images/socialSprite.png) -300px -100px no-repeat;
+}
+ul.social li a.googleplus:hover {
+  background: url(images/socialSprite.png) -300px 0 no-repeat;
+}
+ul.social li a.youtube {
+  background: url(images/socialSprite.png) -400px -100px no-repeat;
+}
+ul.social li a.youtube:hover {
+  background: url(images/socialSprite.png) -400px 0 no-repeat;
+}
+#bottom {
+  background: #d44072;
+  height: 20px;
+}
+
